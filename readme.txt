@@ -17,10 +17,21 @@ Node Practice
 3. 패키지 설치
     1. 전역(global) 설치: 에러 프로젝트에서 공용으로 사용하는 도구
     2. 지역(local) 설치: 특정 프로젝트에서 종속적인 도구나 라이브러리
-    3. ex
-        npm 
+    3. 패키지 설치 ex)
+        npm i ejs [local install, general dependency]
+        npm i -D nodemon [local install, dev dependency]
+        npm i -g gulp [global install, general dependency]
+            npx gulp --version
+    3-2. 패키지 삭제 예제)
+        npm un ejs [local install 삭제]
+        npm un -g gulp [global install 삭제]
+            npx gulp --version
 
 4. Node(JavaScript) Project 생성
+    1) 프로젝트 생성(mkdir)
+    2) 프로젝트 이름(cd)
+    3) 프로젝트 초기화: 프로젝트 매니페스트(manipest) 파일인 package.json을 생성
+        $[project-ex02] npm init -y
 5. Module
 6.
 7.
